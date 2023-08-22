@@ -1,0 +1,25 @@
+#agendaContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#eventoContainer{
+    margin: 25px 10px;
+}
+
+.evento{
+    width: 300px;
+    height: 390px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#eventoInfo{
+    text-align: center;
+}
+
+#eventoInfo p{
+    margin: 5px 0;
+}

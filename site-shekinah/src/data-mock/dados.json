@@ -1,0 +1,62 @@
+{
+     "membros": [
+          {
+               "nome": "Luis Fernando",
+               "foto": "link-ou-nome-da-foto",
+               "redes_sociais": [
+                    {
+                         "facebook": "link-do-facebook"
+                    }
+               ]
+          },
+          {
+               "nome": "André Luiz",
+               "foto": "link-ou-nome-da-foto",
+               "redes_sociais": [
+                    {
+                         "facebook": "link-do-facebook"
+                    },
+                    {
+                         "instagram": "link-do-instagram"
+                    }
+               ]
+          }
+     ],
+     "agenda": [
+          {
+               "banner_url": "banner-evento-1.jpg",
+               "titulo":  "titulo-do-evento1",
+               "local": "Assembleia de Deus Vila Valqueire",
+               "data": "18 de Agosto"
+          },
+          {
+               "banner_url": "banner-evento-2.jpg",
+               "titulo":  "titulo-do-evento2",
+               "local": "Assembleia de Deus Vila Valqueire",
+               "data": "19 de Agosto"
+          },
+          {
+               "banner_url": "banner-evento-3.jpg",
+               "titulo":  "titulo-do-evento3",
+               "local": "Assembleia de Deus Vila Valqueire",
+               "data": "20 de Agosto"
+          }
+     ],
+     "midias": [
+          {
+               "tipo": "foto",
+               "url": "url-ou-nome-da-midia1",
+               "titulo": "titulo-foto1"
+          },
+          {
+               "tipo": "foto",
+               "url": "url-ou-nome-da-midia2",
+               "titulo": "titulo-foto2"
+          },
+          {
+               "tipo": "video",
+               "url": "url-ou-nome-da-midia3",
+               "titulo": "titulo-foto3"
+          }
+     ]
+}
