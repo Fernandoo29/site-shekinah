@@ -28,19 +28,22 @@ export default function Eventos({agenda}){
     }
 
     return(
-        <section id={styles.agendaContainer}>
-        {
-        agenda.map((evento, index) => {
-            return (
-                <div id={styles.eventoContainer}>
-                    <div key={evento.titulo} className={styles.evento} style={{backgroundImage: `url(${imgArray[index]})`}}></div>
-                    <div id={styles.eventoInfo}>
-                        <p>{evento.local}</p>
-                        <p>{evento.data}</p>
-                    </div>
-                </div>
-            )})
-        }
+        <section>
+            <p id={styles.eventoTitulo}>Eventos</p>
+            <div id={styles.eventoContent}>
+                {
+                agenda.map((evento, index) => {
+                    return (
+                        <div id={styles.eventoContainer}>
+                            <div key={evento.titulo} className={styles.evento} style={{backgroundImage: `url(${imgArray[index]})`}}></div>
+                            <div id={styles.eventoInfo}>
+                                <p>{evento.local}</p>
+                                <p>{evento.data}</p>
+                            </div>
+                        </div>
+                    )})
+                }
+            </div>
         </section>
     )
 }

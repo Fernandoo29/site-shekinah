@@ -1,11 +1,29 @@
-#agendaContainer{
+#eventoContainer{
+    margin: 25px 10px;
+}
+
+#eventoTitulo{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0 30px 47%;
+    position: relative;
+    display: inline-block;
+}
+
+#eventoTitulo::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 15px;
+    width: 75%;
+    border-bottom: 1px solid black;
+  }
+
+#eventoContent{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-#eventoContainer{
-    margin: 25px 10px;
 }
 
 .evento{

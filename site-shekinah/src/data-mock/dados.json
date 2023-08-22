@@ -20,6 +20,21 @@
                          "instagram": "link-do-instagram"
                     }
                ]
+          },
+          {
+               "nome": "Daniel",
+               "foto": "link-ou-nome-da-foto",
+               "redes_sociais": [
+                    {
+                         "facebook": "link-do-facebook"
+                    },
+                    {
+                         "instagram": "link-do-instagram"
+                    },
+                    {
+                         "twitter": "link-do-twitter"
+                    }
+               ]
           }
      ],
      "agenda": [
