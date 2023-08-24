@@ -1,8 +1,9 @@
 {
      "membros": [
           {
-               "nome": "Luis Fernando",
-               "foto": "link-ou-nome-da-foto",
+               "nome": "Fulano da Silva",
+               "foto_url": "fulano-foto.jpg",
+               "cargo": "Líder",
                "redes_sociais": [
                     {
                          "facebook": "link-do-facebook"
@@ -10,8 +11,9 @@
                ]
           },
           {
-               "nome": "André Luiz",
-               "foto": "link-ou-nome-da-foto",
+               "nome": "Ciclano Ferreira",
+               "foto_url": "ciclano-foto.jpg",
+               "cargo": "Líder",
                "redes_sociais": [
                     {
                          "facebook": "link-do-facebook"
@@ -22,8 +24,80 @@
                ]
           },
           {
-               "nome": "Daniel",
-               "foto": "link-ou-nome-da-foto",
+               "nome": "Beltrano Fernandes",
+               "foto_url": "beltrano-foto.jpg",
+               "cargo": "Membro",
+               "redes_sociais": [
+                    {
+                         "facebook": "link-do-facebook"
+                    },
+                    {
+                         "instagram": "link-do-instagram"
+                    },
+                    {
+                         "twitter": "link-do-twitter"
+                    }
+               ]
+          },
+          {
+               "nome": "Teobaldo Carvalho",
+               "foto_url": "teobaldo-foto.jpg",
+               "cargo": "Membro",
+               "redes_sociais": [
+                    {
+                         "facebook": "link-do-facebook"
+                    },
+                    {
+                         "instagram": "link-do-instagram"
+                    },
+                    {
+                         "twitter": "link-do-twitter"
+                    }
+               ]
+          },
+          {
+               "nome": "Fulano da Silva2",
+               "foto_url": "fulano-foto.jpg",
+               "cargo": "Líder",
+               "redes_sociais": [
+                    {
+                         "facebook": "link-do-facebook"
+                    }
+               ]
+          },
+          {
+               "nome": "Ciclano Ferreira2",
+               "foto_url": "ciclano-foto.jpg",
+               "cargo": "Líder",
+               "redes_sociais": [
+                    {
+                         "facebook": "link-do-facebook"
+                    },
+                    {
+                         "instagram": "link-do-instagram"
+                    }
+               ]
+          },
+          {
+               "nome": "Beltrano Fernandes2",
+               "foto_url": "beltrano-foto.jpg",
+               "cargo": "Membro",
+               "redes_sociais": [
+                    {
+                         "facebook": "link-do-facebook"
+                    },
+                    {
+                         "instagram": "link-do-instagram"
+                    },
+                    {
+                         "twitter": "link-do-twitter"
+                    }
+               ]
+          },
+          {
+               "nome": "Teobaldo Carvalho2",
+               "foto_url": "teobaldo-foto.jpg",
+               "cargo": "Membro",
                "redes_sociais": [
                     {
                          "facebook": "link-do-facebook"

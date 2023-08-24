@@ -34,8 +34,8 @@ export default function Eventos({agenda}){
                 {
                 agenda.map((evento, index) => {
                     return (
-                        <div id={styles.eventoContainer}>
-                            <div key={evento.titulo} className={styles.evento} style={{backgroundImage: `url(${imgArray[index]})`}}></div>
+                        <div key={evento.titulo} id={styles.eventoContainer}>
+                            <div className={styles.evento} style={{backgroundImage: `url(${imgArray[index]})`}}></div>
                             <div id={styles.eventoInfo}>
                                 <p>{evento.local}</p>
                                 <p>{evento.data}</p>
