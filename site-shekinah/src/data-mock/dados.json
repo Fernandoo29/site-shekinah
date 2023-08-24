@@ -135,16 +135,43 @@
           {
                "tipo": "foto",
                "url": "url-ou-nome-da-midia1",
+               "thumbnail": "url-da-thumbnail1",
                "titulo": "titulo-foto1"
           },
           {
                "tipo": "foto",
                "url": "url-ou-nome-da-midia2",
+               "thumbnail": "url-da-thumbnail2",
                "titulo": "titulo-foto2"
           },
           {
                "tipo": "video",
-               "url": "url-ou-nome-da-midia3",
+               "url": "tkhiN-Hvqh4",
+               "thumbnail": "url-da-thumbnail3",
+               "titulo": "titulo-video3"
+          },
+          {
+               "tipo": "video",
+               "url": "EVot5doOp9Q",
+               "thumbnail": "url-da-thumbnail4",
+               "titulo": "titulo-video3"
+          },
+          {
+               "tipo": "foto",
+               "url": "url-ou-nome-da-midia5",
+               "thumbnail": "url-da-thumbnail5",
+               "titulo": "titulo-foto3"
+          },
+          {
+               "tipo": "video",
+               "url": "WWrU6LC_4ho",
+               "thumbnail": "url-da-thumbnail6",
+               "titulo": "titulo-video3"
+          },
+          {
+               "tipo": "foto",
+               "url": "url-ou-nome-da-midia7",
+               "thumbnail": "url-da-thumbnail7",
                "titulo": "titulo-foto3"
           }
      ]
