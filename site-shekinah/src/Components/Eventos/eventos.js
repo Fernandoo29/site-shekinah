@@ -1,31 +1,6 @@
 import styles from './eventos.module.css'
 
-import React, { useState, useEffect } from 'react';
-
 export default function Eventos({agenda}){
-    const [imgArray, setImgArray] = useState([]);
-
-    useEffect(() => {
-        let promiseArr = agenda.map(evento => {
-            return carregaImg(evento.banner_url)
-        });
-
-        Promise.all(promiseArr).then((values) => {
-            let valuesArr = values.map(path => {
-                return path.default
-            })
-            setImgArray(valuesArr);
-        })
-    }, [])
-
-    async function carregaImg(nomeImagem){
-        try {
-            return await import(`../../img/${nomeImagem}`);
-        } catch (error) {
-            console.error('Error loading image:', error);
-            return 
-        }
-    }
 
     return(
         <section>
@@ -35,7 +10,7 @@ export default function Eventos({agenda}){
                 agenda.map((evento, index) => {
                     return (
                         <div key={evento.titulo} id={styles.eventoContainer}>
-                            <div className={styles.evento} style={{backgroundImage: `url(${imgArray[index]})`}}></div>
+                            <div className={styles.evento} style={{backgroundImage: `url(${evento.banner_url})`}}></div>
                             <div id={styles.eventoInfo}>
                                 <p>{evento.local}</p>
                                 <p>{evento.data}</p>

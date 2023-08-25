@@ -5,6 +5,7 @@ import Banner from './Components/Banner/banner';
 import Eventos from './Components/Eventos/eventos';
 import Membros from './Components/Membros/membros';
 import Midia from './Components/Midia/midia';
+import Footer from './Components/Footer/footer';
 
 import dados from './data-mock/dados.json';
 
@@ -16,6 +17,7 @@ function App() {
       <Eventos agenda={dados.agenda}></Eventos>
       <Membros membros={dados.membros}></Membros>
       <Midia midias={dados.midias}></Midia>
+      <Footer></Footer>
     </div>
   );
 }

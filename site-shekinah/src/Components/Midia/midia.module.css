@@ -1,5 +1,6 @@
 #midiaContainer{
     display: flex;
+    max-height: 555px;
 }
 
 #midiaTitulo{
@@ -22,16 +23,39 @@
 
 #display{
     flex: 5;
-    background-color: red;
-    padding: 60px;
     text-align: right;
 }
 
 #midiaList{
     flex: 4;
-    background-color: blue;
+    overflow-y: auto;
 }
 
 #foto{
+    width: 721px;
+    height: 555px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    margin-right: 30px;
+}
 
+#midiaThumbContainer{
+    display: flex;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.midiaThumb{
+    width: 160px;
+    height: 124px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.midiaThumbInfo{
+    align-self: center;
 }

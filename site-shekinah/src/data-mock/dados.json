@@ -2,7 +2,7 @@
      "membros": [
           {
                "nome": "Fulano da Silva",
-               "foto_url": "fulano-foto.jpg",
+               "foto_url": "https://github.com/Fernandoo29/Imagens/blob/main/fulano-foto.jpg?raw=true",
                "cargo": "Líder",
                "redes_sociais": [
                     {
@@ -12,7 +12,7 @@
           },
           {
                "nome": "Ciclano Ferreira",
-               "foto_url": "ciclano-foto.jpg",
+               "foto_url": "https://github.com/Fernandoo29/Imagens/blob/main/ciclano-foto.jpg?raw=true",
                "cargo": "Líder",
                "redes_sociais": [
                     {
@@ -25,7 +25,7 @@
           },
           {
                "nome": "Beltrano Fernandes",
-               "foto_url": "beltrano-foto.jpg",
+               "foto_url": "https://github.com/Fernandoo29/Imagens/blob/main/beltrano-foto.jpg?raw=true",
                "cargo": "Membro",
                "redes_sociais": [
                     {
@@ -41,7 +41,7 @@
           },
           {
                "nome": "Teobaldo Carvalho",
-               "foto_url": "teobaldo-foto.jpg",
+               "foto_url": "https://github.com/Fernandoo29/Imagens/blob/main/teobaldo-foto.jpg?raw=true",
                "cargo": "Membro",
                "redes_sociais": [
                     {
@@ -57,7 +57,7 @@
           },
           {
                "nome": "Fulano da Silva2",
-               "foto_url": "fulano-foto.jpg",
+               "foto_url": "https://github.com/Fernandoo29/Imagens/blob/main/fulano-foto.jpg?raw=true",
                "cargo": "Líder",
                "redes_sociais": [
                     {
@@ -67,7 +67,7 @@
           },
           {
                "nome": "Ciclano Ferreira2",
-               "foto_url": "ciclano-foto.jpg",
+               "foto_url": "https://github.com/Fernandoo29/Imagens/blob/main/ciclano-foto.jpg?raw=true",
                "cargo": "Líder",
                "redes_sociais": [
                     {
@@ -80,7 +80,7 @@
           },
           {
                "nome": "Beltrano Fernandes2",
-               "foto_url": "beltrano-foto.jpg",
+               "foto_url": "https://github.com/Fernandoo29/Imagens/blob/main/beltrano-foto.jpg?raw=true",
                "cargo": "Membro",
                "redes_sociais": [
                     {
@@ -96,7 +96,7 @@
           },
           {
                "nome": "Teobaldo Carvalho2",
-               "foto_url": "teobaldo-foto.jpg",
+               "foto_url": "https://github.com/Fernandoo29/Imagens/blob/main/teobaldo-foto.jpg?raw=true",
                "cargo": "Membro",
                "redes_sociais": [
                     {
@@ -113,19 +113,19 @@
      ],
      "agenda": [
           {
-               "banner_url": "banner-evento-1.jpg",
+               "banner_url": "https://github.com/Fernandoo29/Imagens/blob/main/banner-evento-1.jpg?raw=true",
                "titulo":  "titulo-do-evento1",
                "local": "Assembleia de Deus Vila Valqueire",
                "data": "18 de Agosto"
           },
           {
-               "banner_url": "banner-evento-2.jpg",
+               "banner_url": "https://github.com/Fernandoo29/Imagens/blob/main/banner-evento-2.jpg?raw=true",
                "titulo":  "titulo-do-evento2",
                "local": "Assembleia de Deus Vila Valqueire",
                "data": "19 de Agosto"
           },
           {
-               "banner_url": "banner-evento-3.jpg",
+               "banner_url": "https://github.com/Fernandoo29/Imagens/blob/main/banner-evento-3.jpg?raw=true",
                "titulo":  "titulo-do-evento3",
                "local": "Assembleia de Deus Vila Valqueire",
                "data": "20 de Agosto"
@@ -134,45 +134,45 @@
      "midias": [
           {
                "tipo": "foto",
-               "url": "url-ou-nome-da-midia1",
-               "thumbnail": "url-da-thumbnail1",
+               "url": "https://github.com/Fernandoo29/Imagens/blob/main/foto-midia1.jpg?raw=true",
+               "thumbnail": "https://github.com/Fernandoo29/Imagens/blob/main/foto-midia1-thumb.jpg?raw=true",
                "titulo": "titulo-foto1"
           },
           {
                "tipo": "foto",
-               "url": "url-ou-nome-da-midia2",
-               "thumbnail": "url-da-thumbnail2",
+               "url": "https://github.com/Fernandoo29/Imagens/blob/main/foto-midia2.jpg?raw=true",
+               "thumbnail": "https://github.com/Fernandoo29/Imagens/blob/main/foto-midia2-thumb.jpg?raw=true",
                "titulo": "titulo-foto2"
           },
           {
                "tipo": "video",
                "url": "tkhiN-Hvqh4",
-               "thumbnail": "url-da-thumbnail3",
-               "titulo": "titulo-video3"
+               "thumbnail": "https://img.youtube.com/vi/tkhiN-Hvqh4/default.jpg",
+               "titulo": "titulo-video1"
           },
           {
                "tipo": "video",
                "url": "EVot5doOp9Q",
-               "thumbnail": "url-da-thumbnail4",
-               "titulo": "titulo-video3"
+               "thumbnail": "https://img.youtube.com/vi/EVot5doOp9Q/default.jpg",
+               "titulo": "titulo-video2"
           },
           {
                "tipo": "foto",
-               "url": "url-ou-nome-da-midia5",
-               "thumbnail": "url-da-thumbnail5",
+               "url": "https://github.com/Fernandoo29/Imagens/blob/main/foto-midia3.jpg?raw=true",
+               "thumbnail": "https://github.com/Fernandoo29/Imagens/blob/main/foto-midia3-thumb.jpg?raw=true",
                "titulo": "titulo-foto3"
           },
           {
                "tipo": "video",
                "url": "WWrU6LC_4ho",
-               "thumbnail": "url-da-thumbnail6",
+               "thumbnail": "https://img.youtube.com/vi/WWrU6LC_4ho/default.jpg",
                "titulo": "titulo-video3"
           },
           {
                "tipo": "foto",
-               "url": "url-ou-nome-da-midia7",
-               "thumbnail": "url-da-thumbnail7",
-               "titulo": "titulo-foto3"
+               "url": "https://github.com/Fernandoo29/Imagens/blob/main/foto-midia4.jpg?raw=true",
+               "thumbnail": "https://github.com/Fernandoo29/Imagens/blob/main/foto-midia4-thumb.jpg?raw=true",
+               "titulo": "titulo-foto4"
           }
      ]
 }

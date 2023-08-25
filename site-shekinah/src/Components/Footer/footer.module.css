@@ -1,0 +1,32 @@
+#footer{
+    height: 150px;
+    background-color: #01152a;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+    background-color: chocolate;
+    margin-left: 20%;
+}
+
+#redesSociaisCaixa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 120px;
+}
+
+#footerText{
+    display: flex;
+    margin-right: 10%;  
+}
+
+#text{
+    color: white;
+    align-self: center;
+    margin-left: 20px;
+}
