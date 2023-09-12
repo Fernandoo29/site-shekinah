@@ -1,0 +1,107 @@
+#membroContainer{
+    margin: 25px 70px;
+    position: relative;
+    cursor: pointer;
+}
+
+#membroContainer:hover .membro{
+    filter: brightness(0.5);
+}
+
+.membro{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    transition: filter 500ms;
+
+    /* Esse z-index tem q manter */
+    position: relative;
+    z-index: 2;
+}
+
+#membroInfo{
+    text-align: center;
+}
+
+#membroInfo p{
+    margin: 5px 0;
+}
+
+.redeSocial{
+    /* retirar z-index depois */
+    /* z-index: 2; */
+
+    position: absolute;
+    top: 25%;
+    right: 35%;
+
+    animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+/* Facebook */
+.animacaoMoverFacebook {
+    animation-name: moverFacebook;
+}
+.animacaoVoltarFacebook {
+    animation-name: voltarFacebook;
+}
+
+/* Instagram */
+.animacaoMoverInstagram {
+    animation-name: moverInstagram;
+}
+.animacaoVoltarInstagram {
+    animation-name: voltarInstagram;
+}
+
+/* Twitter */
+.animacaoMoverTwitter {
+    animation-name: moverTwitter;
+}
+.animacaoVoltarTwitter {
+    animation-name: voltarTwitter;
+}
+
+/* Facebook */
+@keyframes moverFacebook {
+    0% { top: 25%; right: 35%; }
+    90% { top: -16%; right: 86%; }
+    100% { top: -10%; right: 80%; }
+}
+
+@keyframes voltarFacebook {
+    0% { top: -10%; right: 80%; }
+    10% { top: -16%; right: 86%; }
+    100% { top: 25%; right: 35%; }
+}
+
+/* Instagram */
+@keyframes moverInstagram {
+    0% { top: 25%; right: 35%; }
+    90% { top: -30%; right: 38%; }
+    100% { top: -24%; right: 38%; }
+}
+
+@keyframes voltarInstagram {
+    0% { top: -24%; right: 38%; }
+    10% { top: -30%; right: 38%; }
+    100% { top: 25%; right: 35%; }
+}
+
+/* Twitter */
+@keyframes moverTwitter {
+    0% { top: 25%; right: 35%; }
+    90% { top: -22%; right: -12%; }
+    100% { top: -13%; right: -6%; }
+}
+
+@keyframes voltarTwitter {
+    0% { top: -13%; right: -6%; }
+    10% { top: -22%; right: -12%; }
+    100% { top: 25%; right: 35%; }
+}

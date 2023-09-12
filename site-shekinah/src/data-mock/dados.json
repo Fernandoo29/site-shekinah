@@ -7,6 +7,12 @@
                "redes_sociais": [
                     {
                          "facebook": "link-do-facebook"
+                    },
+                    {
+                         "instagram": null
+                    },
+                    {
+                         "twitter": null
                     }
                ]
           },
@@ -20,6 +26,9 @@
                     },
                     {
                          "instagram": "link-do-instagram"
+                    },
+                    {
+                         "twitter": null
                     }
                ]
           },
@@ -62,6 +71,12 @@
                "redes_sociais": [
                     {
                          "facebook": "link-do-facebook"
+                    },
+                    {
+                         "instagram": null
+                    },
+                    {
+                         "twitter": null
                     }
                ]
           },
@@ -71,10 +86,13 @@
                "cargo": "Líder",
                "redes_sociais": [
                     {
-                         "facebook": "link-do-facebook"
+                         "facebook": null
                     },
                     {
-                         "instagram": "link-do-instagram"
+                         "instagram": null
+                    },
+                    {
+                         "twitter": "link-do-twitter"
                     }
                ]
           },
@@ -84,7 +102,7 @@
                "cargo": "Membro",
                "redes_sociais": [
                     {
-                         "facebook": "link-do-facebook"
+                         "facebook": null
                     },
                     {
                          "instagram": "link-do-instagram"
@@ -103,7 +121,7 @@
                          "facebook": "link-do-facebook"
                     },
                     {
-                         "instagram": "link-do-instagram"
+                         "instagram": null
                     },
                     {
                          "twitter": "link-do-twitter"

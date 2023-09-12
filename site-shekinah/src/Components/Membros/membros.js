@@ -1,5 +1,7 @@
 import styles from './membros.module.css'
 
+import Membro from '../Membro/membro';
+
 export default function Membros({membros}){
 
     return(
@@ -7,16 +9,9 @@ export default function Membros({membros}){
             <p id={styles.membroTitulo}>Membros</p>
             <div id={styles.membroContent}>
                 {
-                membros.map((membro, index) => {
-                    return (
-                        <div key={membro.nome} id={styles.membroContainer}>
-                            <div className={styles.membro} style={{backgroundImage: `url(${membro.foto_url})`}}></div>
-                            <div id={styles.membroInfo}>
-                                <p>{membro.nome}</p>
-                                <p>{membro.cargo}</p>
-                            </div>
-                        </div>
-                    )})
+                    membros.map((membro) => (
+                        <Membro key={membro.nome} membro={membro}></Membro>
+                    ))
                 }
             </div>
         </section>

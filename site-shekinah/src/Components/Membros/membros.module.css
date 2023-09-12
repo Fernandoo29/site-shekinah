@@ -2,15 +2,11 @@
     background-color: rgb(0 0 0 / 20%);
 }
 
-#membroContainer{
-    margin: 25px 70px;
-}
-
 #membroTitulo{
     font-size: 30px;
     text-align: center;
     font-weight: bold;
-    margin: 30px 0 30px 47%;
+    margin: 30px 0 7px 47%;
     position: relative;
     display: inline-block;
 }
@@ -27,22 +23,7 @@
 #membroContent{
     display: flex;
     justify-content: space-between;
+    align-items: end;
     overflow-x: auto;
-}
-
-.membro{
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 100%;
-}
-
-#membroInfo{
-    text-align: center;
-}
-
-#membroInfo p{
-    margin: 5px 0;
+    min-height: 30vh;
 }

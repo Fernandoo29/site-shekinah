@@ -3,7 +3,6 @@ import styles from './midia.module.css'
 import {useState, useEffect} from 'react'
 
 export default function Midia({midias}){
-    console.log(midias);
     const [selectedMidia, setSelectedMidia] = useState(midias[0]);
 
     function changeSelectedMidia(midia){
