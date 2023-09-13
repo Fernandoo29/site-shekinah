@@ -3,5 +3,26 @@
     height: 50px;
     border-radius: 50px;
     margin: 5px;
-    background-color: aqua;
+    background-color: #102d3b;
+    cursor: pointer;
+}
+
+.redeContainer:hover{
+    filter: brightness(0.7);
+}
+
+.redeContainerNull{
+    background-color: #7f7f7f;
+    cursor: default;
+}
+
+.redeContainerNull:hover{
+    filter: brightness(1);
+}
+
+.icone{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
 }

@@ -52,8 +52,8 @@ export default function Membro({membro}){
                     {/* Redes Sociais */}
                     {
                         membro.redes_sociais.map((redeSocial, index) => (
-                            <div key={membro.nome+Object.keys(redeSocial)[0]} className={`${styles.redeSocial} ${animacaoAtiva ? selectAnimationMover(index) : firstLoadingPage ? "" : selectAnimationVoltar(index)}`}>
-                                <RedeSocial></RedeSocial>
+                            <div onClick={(e) => {e.stopPropagation()}} key={membro.nome+Object.keys(redeSocial)[0]} className={`${styles.redeSocial} ${animacaoAtiva ? selectAnimationMover(index) : firstLoadingPage ? "" : selectAnimationVoltar(index)}`}>
+                                <RedeSocial tipo={Object.keys(redeSocial)[0]} link={Object.values(redeSocial)[0]}></RedeSocial>
                             </div>
                         ))
                     }

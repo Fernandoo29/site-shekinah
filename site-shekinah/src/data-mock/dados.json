@@ -6,7 +6,7 @@
                "cargo": "Líder",
                "redes_sociais": [
                     {
-                         "facebook": "link-do-facebook"
+                         "facebook": "https://www.facebook.com"
                     },
                     {
                          "instagram": null
@@ -22,10 +22,10 @@
                "cargo": "Líder",
                "redes_sociais": [
                     {
-                         "facebook": "link-do-facebook"
+                         "facebook": "https://www.facebook.com"
                     },
                     {
-                         "instagram": "link-do-instagram"
+                         "instagram": "https://www.instagram.com"
                     },
                     {
                          "twitter": null
@@ -38,13 +38,13 @@
                "cargo": "Membro",
                "redes_sociais": [
                     {
-                         "facebook": "link-do-facebook"
+                         "facebook": "https://www.facebook.com"
                     },
                     {
-                         "instagram": "link-do-instagram"
+                         "instagram": "https://www.instagram.com"
                     },
                     {
-                         "twitter": "link-do-twitter"
+                         "twitter": "https://www.twitter.com"
                     }
                ]
           },
@@ -54,13 +54,13 @@
                "cargo": "Membro",
                "redes_sociais": [
                     {
-                         "facebook": "link-do-facebook"
+                         "facebook": "https://www.facebook.com"
                     },
                     {
-                         "instagram": "link-do-instagram"
+                         "instagram": "https://www.instagram.com"
                     },
                     {
-                         "twitter": "link-do-twitter"
+                         "twitter": "https://www.twitter.com"
                     }
                ]
           },
@@ -70,7 +70,7 @@
                "cargo": "Líder",
                "redes_sociais": [
                     {
-                         "facebook": "link-do-facebook"
+                         "facebook": "https://www.facebook.com"
                     },
                     {
                          "instagram": null
@@ -92,7 +92,7 @@
                          "instagram": null
                     },
                     {
-                         "twitter": "link-do-twitter"
+                         "twitter": "https://www.twitter.com"
                     }
                ]
           },
@@ -105,10 +105,10 @@
                          "facebook": null
                     },
                     {
-                         "instagram": "link-do-instagram"
+                         "instagram": "https://www.instagram.com"
                     },
                     {
-                         "twitter": "link-do-twitter"
+                         "twitter": "https://www.twitter.com"
                     }
                ]
           },
@@ -118,13 +118,13 @@
                "cargo": "Membro",
                "redes_sociais": [
                     {
-                         "facebook": "link-do-facebook"
+                         "facebook": "https://www.facebook.com"
                     },
                     {
                          "instagram": null
                     },
                     {
-                         "twitter": "link-do-twitter"
+                         "twitter": "https://www.twitter.com"
                     }
                ]
           }

@@ -4,8 +4,9 @@
     cursor: pointer;
 }
 
-#membroContainer:hover .membro{
-    filter: brightness(0.5);
+#membroContainer:hover:not(:has(.redeSocial:hover)) > .membro {
+    box-shadow: inset 0px 0px 45px 20px rgba(0, 0, 0, 0.7);
+
 }
 
 .membro{
@@ -16,8 +17,6 @@
     background-position: center;
     border-radius: 100%;
     transition: filter 500ms;
-
-    /* Esse z-index tem q manter */
     position: relative;
     z-index: 2;
 }
@@ -31,13 +30,10 @@
 }
 
 .redeSocial{
-    /* retirar z-index depois */
-    /* z-index: 2; */
-
     position: absolute;
     top: 25%;
     right: 35%;
-
+    cursor: default;
     animation-duration: 300ms;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
@@ -70,38 +66,38 @@
 /* Facebook */
 @keyframes moverFacebook {
     0% { top: 25%; right: 35%; }
-    90% { top: -16%; right: 86%; }
-    100% { top: -10%; right: 80%; }
+    90% { top: -18%; right: 88%; }
+    100% { top: -12%; right: 82%; }
 }
 
 @keyframes voltarFacebook {
-    0% { top: -10%; right: 80%; }
-    10% { top: -16%; right: 86%; }
+    0% { top: -12%; right: 82%; }
+    10% { top: -18%; right: 88%; }
     100% { top: 25%; right: 35%; }
 }
 
 /* Instagram */
 @keyframes moverInstagram {
     0% { top: 25%; right: 35%; }
-    90% { top: -30%; right: 38%; }
-    100% { top: -24%; right: 38%; }
+    90% { top: -32%; right: 38%; }
+    100% { top: -26%; right: 38%; }
 }
 
 @keyframes voltarInstagram {
-    0% { top: -24%; right: 38%; }
-    10% { top: -30%; right: 38%; }
+    0% { top: -26%; right: 38%; }
+    10% { top: -32%; right: 38%; }
     100% { top: 25%; right: 35%; }
 }
 
 /* Twitter */
 @keyframes moverTwitter {
     0% { top: 25%; right: 35%; }
-    90% { top: -22%; right: -12%; }
-    100% { top: -13%; right: -6%; }
+    90% { top: -24%; right: -14%; }
+    100% { top: -15%; right: -8%; }
 }
 
 @keyframes voltarTwitter {
-    0% { top: -13%; right: -6%; }
+    0% { top: -15%; right: -8%; }
     10% { top: -22%; right: -12%; }
     100% { top: 25%; right: 35%; }
 }
