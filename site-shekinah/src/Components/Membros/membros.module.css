@@ -1,5 +1,7 @@
 #membrosSection{
     background-color: rgb(0 0 0 / 20%);
+    overflow: hidden;
+    position: relative;
 }
 
 #membroTitulo{
@@ -24,6 +26,41 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
-    overflow-x: auto;
-    min-height: 31vh;
+    overflow-x: hidden;
+    height: 370px;
+}
+
+.arrowContainer{
+    width: 53px;
+    height: 100%;
+    background: #00000038;
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 200ms ease-in-out;
+}
+
+.arrowLeft{
+    display: block;
+    border-right: #00000078 solid 15px;
+    border-top: transparent solid 15px;
+    border-left: transparent solid 15px;
+    border-bottom: transparent solid 15px;
+    margin: 220px 30px 0 0;
+}
+
+.arrowRight{
+    display: block;
+    border-left: #00000078 solid 15px;
+    border-top: transparent solid 15px;
+    border-right: transparent solid 15px;
+    border-bottom: transparent solid 15px;
+    margin: 220px 0px 0 22px;
+}
+
+.hide{
+    opacity: 0;
+    pointer-events: none;
 }
